@@ -1,0 +1,1 @@
+SELECT * FROM imdb_data
