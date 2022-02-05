@@ -5,6 +5,10 @@
 
 Movie is a industry with annual revenue over 42 billion US dollar. A high rating movie will make actors participant become famous super movie star while highest-grossing earn hundreds of million US dollars as profits. Using the historical rating by each movie, one may learn which movie type is the most popular one for movie fans. The costs and revenue data also show the information of high-grossing films. However, it seems a paradox that those high rating movie who won Oscar prize may not be the highest-grossing movies. In this study, we use movie rating ranking from IMDB in comparisons with movie grossing ranking in Wikipedia to investigate if the high rating movies are also high grossing movie. Moreover, if it in related to movie type or some other indicators. 
 
+For example, from the table we join in this report, though the high grossing movies err on the side of high rating, the highest rated movies are not necessarily the highest grossing. The highest grossing movie is Avatar while its rating is only 7.8. On the other hand, the highest rated movie is The Dark Knight at 9.0, though this is only the 48th highest grossing movie. 
+
+The initial findings from the Rotten Tomatoes web scraping are that the audience score seems closer to the IMDB rating than the Rotten Tomatoes (critics) scores. However, this requires further work before any strong relationships/correlation can be found.
+
 # Data collection and cleaning 
 
 ## Data extractions
