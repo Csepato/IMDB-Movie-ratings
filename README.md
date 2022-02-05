@@ -3,6 +3,8 @@
 
 ## Proposal
 
+Movie is a industry with annual revenue over 42 billion US dollar. A high rating movie will make actors participant become famous super movie star while highest-grossing earn hundreds of million US dollars as profits. Using the historical rating by each movie, one may learn which movie type is the most popular one for movie fans. The costs and revenue data also show the information of high-grossing films. However, it seems a paradox that those high rating movie who won Oscar prize may not be the highest-grossing movies. In this study, we use movie rating ranking from IMDB in comparisons with movie grossing ranking in Wikipedia to investigate if the high rating movies are also high grossing movie. Moreover, if it in related to movie type or some other indicators. 
+
 Three datasets were utilised, two of which originated from IMDb and the third from wikipedia. The IMDb data was contained within tsv files, a table was extracted from a wikipedia page to make up the third dataset. 
 
 The aim was to compare the highest grossing movies from Wikipedia against the highest rated movies on IMDB, to see if there is a correlation between how well a movie perfoms and the rating it recieves.The data was transformed in jupyter notebook and loaded into Postgres (pgAdmin) where individual tables represented each dataset. These tables were then merged to produce a table showing the rank of highest grossing movies and the ratings and votes recieved on IMDB. We used Postgres as it is a relational database and we needed to be able to compare the information by joining different tables.
