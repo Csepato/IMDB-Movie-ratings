@@ -4,9 +4,9 @@
 
 Three datasets were utilised, two of which originated from IMDb and the third from wikipedia. The IMDb data was contained within tsv files, a table was extracted from a wikipedia page to make up the third dataset. 
 
-The aim was to compare the highest grossing movies from Wikipedia against the highest rated movies on IMDB, to see if there is a correlation between how well a movie perfoms and the rating it recieves.The data was transformed in jupyter notebook and loaded into Postgres (pgAdmin) where individual tables represented each dataset. These tables were then merged to produce a table showing the rank of highest grossing movies and the ratings and votes recieved on IMDB.
+The aim was to compare the highest grossing movies from Wikipedia against the highest rated movies on IMDB, to see if there is a correlation between how well a movie perfoms and the rating it recieves.The data was transformed in jupyter notebook and loaded into Postgres (pgAdmin) where individual tables represented each dataset. These tables were then merged to produce a table showing the rank of highest grossing movies and the ratings and votes recieved on IMDB. We used Postgres as it is a relational database and we needed to be able to compare the information by joining different tables.
 
-From the table we can see that there is no strong correlation between high rating and high grossing movies, though the high grossing movies err on the side of high rating, the highest rated movies are not necessarily the highest grossing. The highest grossing movie is Avatar, though the rating is only 7.8. The highest rated movie is The Dark Knight, though this is only the 48th highest grossing movie. 
+From the table we can see that there is no strong correlation between high rating and high grossing movies, though the high grossing movies err on the side of high rating, the highest rated movies are not necessarily the highest grossing. The highest grossing movie is Avatar, though the rating is only 7.8. The highest rated movie is The Dark Knight with 9.0, though this is only the 48th highest grossing movie. 
 
 
 ## Report
