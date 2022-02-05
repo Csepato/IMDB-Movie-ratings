@@ -40,6 +40,8 @@ The IMDb and wikipedia data was imported into SQL database (Postgres) using the 
 
 ![SQL Table](https://user-images.githubusercontent.com/88689661/152639970-622fa681-2350-4336-9c6d-7919303e0708.png)
 
+## Summary and Conclusions
+
 **What problems did we have?**
 
 We initially faced issues in using the TSV files, they required unzipping and loading into jupyter notebook. They loaded into jupyter notebook okay, however they took a long time to load and we thought this may be an issue. There was also problems with duplicate data, we filtered as much as we could without restricting the data too much. However there were still duplicates present. 
@@ -56,7 +58,7 @@ Possibly look into creating a scatter plot comparing the ratings on IMDB and the
 
 Further work would also be needed with the rotten tomatoes data to allow for proper comparison between ratings. Rotten Tomatoes scores are out of 100, while IMDB scores are out of 10. We could either scale up the IMDB scores, or scale down the Rotten Tomatoes scores. Rotten Tomatoes also has both critics and audience scores, so we could add those into the comparison as well, as IMDB ratings are made up from user voting, where as the Rotten Tomatoes scores are usually made from critics ratings. 
 
-## Conclusions
+
 
 From our primary comparasion analysis, the movie ranking does not necessaily in related to its performance on box office. The initial findings from the Rotten Tomatoes web scraping are that the audience score seems closer to the IMDB rating than the Rotten Tomatoes (critics) scores. However, this requires further work before any strong relationships/correlation can be found.
 
