@@ -1,10 +1,3 @@
-<style>
-body {
-text-align: justify}
-</style>
-
-
-
 # All your DATAbase are belong to us
 ### By Ovi Serban, Khadiza Begum, Meng Tong, Clifford Sepato, Emma Smith
 
