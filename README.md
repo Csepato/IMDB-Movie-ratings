@@ -35,3 +35,20 @@ A database called movie_list was created in PostrgeSQL and the new created dataf
 **Loading**
 
 The IMDb and wikipedia data was imported into SQL database (Postgres) using the connection in jupyter notebook. The tables were merged in SQL user an inner join in order to compare the highest grossing films to the highest rated films.
+
+![SQL Table](https://user-images.githubusercontent.com/88689661/152639970-622fa681-2350-4336-9c6d-7919303e0708.png)
+
+**What problems did we have?**
+
+We initially faced issues in using the TSV files, they required unzipping and loading into jupyter notebook. They loaded into jupyter notebook okay, however they took a long time to load and we thought this may be an issue. There was also problems with duplicate data, we filtered as much as we could without restricting the data too much. However there were still duplicates present. 
+
+Web scraping presented more issues, in that we could only scrape a certain number of films from Rotten Tomatoes at one time. The scraping also didn't return the movie titles, so this was sorted by adding a new column 'Rank' to allow for the merging of the IMDB data and Rotten Tomatoes data.
+
+**What would we do without limitations/with more time?**
+
+If we had more time, we would look into removing further duplicates. There were duplicates of some movies because of alternative versions of them, such as alternative language or directors cut. We could use the title.akas TSV, which included the language column and possibly filter some of the duplicates out that way.
+
+We would also like to create a comparison of ratings between IMDB, Rotten Tomatoes and MetaCritic, to see how rating differs between each site. 
+
+Possibly look into creating a scatter plot comparing the ratings on IMDB and the grossing amount from Wikipedia.
+
