@@ -76,7 +76,7 @@ A database called movie_list was created in PostrgeSQL and the new created dataf
 
 
 
-**Loading**
+## Loading
 
 The IMDb and wikipedia data was imported into SQL database (Postgres) using the connection in jupyter notebook. The tables were merged in SQL user an inner join in order to compare the highest grossing films to the highest rated films.
 
