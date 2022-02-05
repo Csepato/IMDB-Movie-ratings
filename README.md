@@ -20,8 +20,12 @@ The wikipedia data was taken from 'https://en.wikipedia.org/wiki/List_of_highest
 **Transformation**
 
 The IMDb data was inserted into dataframes in jupyter notebook. Both datasets were filtered by format type to present only those that were movies. The basic and rating tables were then merged using the unique ID (tconst). Null values appeared as the rating data could not be filtered by format type. The null values were dropped.
-
 The data was then sorted by the number of votes in descending order. The index was reset and the columns that were needed from the tables were then selected (averageRating, numVotes and primaryTitle). These columns were then renamed. This data was then exported as a csv file.
 
+The wikipedia data was read from the webpage and imported into a dataframe. The required columns were selected (Title and Rank) and renamed. This data was exported as a csv.
+
+Web scraping:
 
 **Loading**
+
+The IMDb and wikipedia data was imported into SQL database (Postgres) using the connection in jupyter notebook. The tables were merged in SQL user an inner join in order to compare the highest grossing films to the highest rated films.
