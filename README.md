@@ -1,4 +1,5 @@
-# Project-2-Group-1
+# All your DATAbase are belong to us
+### By Ovi Serban, Khadiza Begum, Meng Tong, Clifford Sepato, Emma Smith
 
 ## Proposal
 
