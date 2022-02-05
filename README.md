@@ -8,6 +8,7 @@ The aim was to compare the highest grossing movies from Wikipedia against the hi
 
 From the table we can see that there is no strong correlation between high rating and high grossing movies, though the high grossing movies err on the side of high rating, the highest rated movies are not necessarily the highest grossing. The highest grossing movie is Avatar, though the rating is only 7.8. The highest rated movie is The Dark Knight with 9.0, though this is only the 48th highest grossing movie. 
 
+The initial findings from the Rotten Tomatoes web scraping are that the audience score seems closer to the IMDB rating than the Rotten Tomatoes (critics) scores. However, this requires further work before any strong relationships/correlation can be found.
 
 ## Report
 **Extraction**
