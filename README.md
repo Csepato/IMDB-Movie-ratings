@@ -26,6 +26,9 @@ The wikipedia data was read from the webpage and imported into a dataframe. The 
 
 Web scraping:
 
+We used rotten-tomatoes-scraper library to scrap Rotten Tomatoes website to extract metadata of movies. All what you need to do is to feed movie_url or movie_title to extract the movie metadata. A list with movie's titles from IMDB files was created which helped us to feed the movie_title. All the extractions from Rotten Tomatoes were stored in a list of dictionaries and transformed after in a dataframe. We merged Rotten Tomatoes dataframe with IMDB dataframe to have all data in one table.
+A database called movie_list was created in PostrgeSQL and the new created dataframe was loaded into database.
+
 **Loading**
 
 The IMDb and wikipedia data was imported into SQL database (Postgres) using the connection in jupyter notebook. The tables were merged in SQL user an inner join in order to compare the highest grossing films to the highest rated films.
