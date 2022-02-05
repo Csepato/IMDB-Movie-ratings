@@ -97,3 +97,8 @@ We would also like to create a comparison of ratings between IMDB, Rotten Tomato
 Possibly look into creating a scatter plot comparing the ratings on IMDB and the grossing amount from Wikipedia.
 
 Further work would also be needed with the rotten tomatoes data to allow for proper comparison between ratings. Rotten Tomatoes scores are out of 100, while IMDB scores are out of 10. We could either scale up the IMDB scores, or scale down the Rotten Tomatoes scores. Rotten Tomatoes also has both critics and audience scores, so we could add those into the comparison as well, as IMDB ratings are made up from user voting, where as the Rotten Tomatoes scores are usually made from critics ratings. 
+
+## Conclusions
+
+From our primary comparasion analysis, the movie ranking does not necessaily in related to its performance on box office. The initial findings from the Rotten Tomatoes web scraping are that the audience score seems closer to the IMDB rating than the Rotten Tomatoes (critics) scores. However, this requires further work before any strong relationships/correlation can be found.
+
