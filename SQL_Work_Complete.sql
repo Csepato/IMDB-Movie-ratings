@@ -1,3 +1,5 @@
+/* These first two sets of code are troubleshooting, from when I had duplicates of every movie. Turned out I had imported the wiki_data.csv twice
+
 SELECT 
     "Movie Rating",
     "User Votes",
