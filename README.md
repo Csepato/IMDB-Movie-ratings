@@ -1,4 +1,4 @@
-# All your DATAbase are belong to us
+# Project#2: Extract, Transform and Load 
 ### By Ovi Serban, Khadiza Begum, Meng Tong, Clifford Sepato, Emma Smith
 
 # Proposal
