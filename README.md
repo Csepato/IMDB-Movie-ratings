@@ -1,4 +1,4 @@
-# Project#2: Extract, Transform and Load 
+# Project#2: IMDB Movie Ratings 
 ### By Ovi Serban, Khadiza Begum, Meng Tong, Clifford Sepato, Emma Smith
 
 # Proposal
